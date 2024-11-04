@@ -63,6 +63,9 @@ import notes_app from "./notes_app.png"
 import object_detection from "./object_detection.png"
 import plane_sweep_algo from "./plane_sweep_algo.png"
 import neural_net from "./neural_net.png"
+import architecture_diagram from "./architecture_diagram.png"
+import dhruv_bnb from "./dhruv_bnb.png"
+
 
 
 export {
@@ -125,4 +128,6 @@ export {
   notes_app,
   object_detection,
   plane_sweep_algo,
+  architecture_diagram,
+  dhruv_bnb
 };

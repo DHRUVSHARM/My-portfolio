@@ -52,7 +52,9 @@ import {
   plane_sweep_algo,
   text_summ,
   object_detection,
-  reddit
+  reddit,
+  dhruv_bnb,
+  architecture_diagram
 } from "../assets";
 
 
@@ -394,6 +396,32 @@ const projects = [
 */
 
 const projects = [
+
+  {
+    name: "Online Marketplace for Rentals",
+    description:
+      "Built a full-stack web application for property listing and sales, with a Next.js frontend and scalable backend APIs using Django. Enabled real-time chat functionality between hosts and guests with Django Channels.",
+    tags: [
+      { name: "Django", color: "blue-text-gradient" },
+      { name: "Next.js", color: "green-text-gradient" },
+      { name: "PostgreSQL", color: "pink-text-gradient" },
+    ],
+    image: dhruv_bnb,  // Replace with the actual image reference
+    source_code_link: "https://github.com/DHRUVSHARM/DhruvBnb",
+  },
+  {
+    name: "Scalable E-commerce and Payments Solution",
+    description:
+      "Developed a microservices-based e-commerce solution, implementing Kafka for asynchronous notifications and OpenFeign for inter-service communication. Used API gateway for secure access, Zipkin for monitoring, and Spring Cloud Config for centralized configuration.",
+    tags: [
+      { name: "Spring Boot", color: "blue-text-gradient" },
+      { name: "Kafka", color: "green-text-gradient" },
+      { name: "MongoDB", color: "pink-text-gradient" },
+    ],
+    image: architecture_diagram,  // Replace with the actual image reference
+    source_code_link: "https://github.com/DHRUVSHARM/spring-ecommerce-and-microservice-solution",
+  },
+
   {
     name: "Interactive Campground Management Platform",
     description:
