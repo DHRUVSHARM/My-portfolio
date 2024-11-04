@@ -220,18 +220,30 @@ const technologies = [
   },
 ];
 
+
 const experiences = [
+  {
+    title: "Software Development Intern",
+    company_name: "Paychex",
+    icon: destination_star,
+    iconBg: "#383E56",
+    date: "September 2024 - Present",
+    points: [
+      "Developed RESTful web services with Spring Boot and React, enabling integration with third-party insurance platforms and supporting a transition from monolithic to microservices architecture.",
+      "Optimized database performance by migrating SQL from Pro*C/C++ to Python with SQLAlchemy ORM and cx_Oracle, enhancing query execution, transaction handling, and scalability.",
+      "Improved software stability by creating CI/CD pipelines and implementing JUnit and Mockito for automated testing, contributing to faster and more reliable deployment cycles within an Agile team."
+    ],
+  },
   {
     title: "Software Development Intern",
     company_name: "Applyin.co (Remote)",
     icon: destination_star,
     iconBg: "#383E56",
-    date: "April 2024 - Present",
+    date: "June 2024 - August 2024",
     points: [
-      "Developed a dynamic frontend with real-time spellcheck and interactive features using React for an Essay App, contributing to a 15% increase in user retention.",
-      "Enhanced backend response times by 25% by leveraging Django REST framework for API development, integrating NLP tools, LLM models, and Generative AI APIs for feedback and content suggestions.",
-      "Led the development of a comprehensive teacher module using Django, boosting educator productivity by 40% through improved classroom creation, activity management, and student tracking.",
-      "Reduced deployment errors by 20% by collaborating in an agile environment, using Git for version control and Postman for API testing as part of cross-functional teams.",
+      "Designed and developed RESTful APIs using Django, leveraging cloud services and LLMs for spellcheck and content suggestions, achieving a 25% improvement in backend response times.",
+      "Enhanced frontend interactivity with React, HTML, CSS, and JavaScript, including a Chrome extension for real-time spellcheck, contributing to a 15% increase in user engagement.",
+      "Reduced deployment errors by 20% through collaboration in an Agile environment, utilizing Git for version control and Postman for API testing."
     ],
   },
   {
@@ -241,10 +253,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "August 2023 - April 2024",
     points: [
-      "Conducted weekly lab sessions, guiding students effectively through course materials.",
-      "Streamlined assignment grading process for a cohort of 120 students by implementing automated tests with JUnit and Pytest, reducing manual grading time by 30%.",
-      "Mentored and provided valuable assistance to students enrolled in programming courses, fostering a supportive learning environment.",
-      "Promoted team collaboration and academic progress by providing mentorship in Computational Problem Solving, Advanced Object-Oriented Programming, and Computer Science Theory.",
+      "Led weekly lab sessions and mentored students in programming courses, fostering a collaborative learning environment.",
+      "Streamlined grading for a 120-student cohort by implementing JUnit and Pytest for automated testing, reducing manual grading time by 30%.",
+      "Supported student success in Computational Problem Solving, Advanced Object-Oriented Programming, and Computer Science Theory."
     ],
   },
   {
@@ -252,11 +263,10 @@ const experiences = [
     company_name: "Rochester Institute of Technology",
     icon: destination_star,
     iconBg: "#383E56",
-    date: "August 2022 - December 2024",
+    date: "August 2022 - Present",
     points: [
-      "Current GPA: 3.7",
-      "Recipient of a 40% merit-based scholarship.",
-      "Relevant coursework: Data Structures and Algorithms, Computer Networks, Distributed Systems, Operating Systems, Big Data Analytics and Database Systems, Artificial Intelligence, Machine Learning, GPU Programming with CUDA, Computational Mathematics, Computer Security and Cryptography, Computational Geometry, Cloud Computing, Web Services and Microservice Architecture.",
+      "Current GPA: 3.7; awarded a 40% merit-based scholarship.",
+      "Relevant coursework includes Data Structures and Algorithms, Distributed Systems, Machine Learning, Cloud Computing, and Web Services."
     ],
   },
   {
@@ -266,10 +276,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "May 2021 - October 2021",
     points: [
-      "Optimized website performance by implementing efficient query optimization and indexing with PHP and MySQL.",
-      "Enhanced user experience and ensured cross-browser compatibility by employing responsive design techniques using JavaScript, HTML, and CSS.",
-      "Contributed to a 5% increase in organic traffic by assisting in SEO optimization and content management with WordPress.",
-      "Enhanced user retention rates by 10% through data-driven insights from Google Analytics on user interaction.",
+      "Enhanced website performance through query optimization and indexing with PHP and MySQL.",
+      "Improved user experience and cross-browser compatibility with responsive design techniques using JavaScript, HTML, and CSS.",
+      "Contributed to a 5% increase in organic traffic by assisting with SEO optimization and content management via WordPress."
     ],
   },
   {
@@ -279,9 +288,8 @@ const experiences = [
     iconBg: "#383E56",
     date: "June 2018 - June 2022",
     points: [
-      "GPA: 8.08",
-      "Minor specialization in Computational Intelligence.",
-      "Relevant coursework: Machine Learning, Computer Vision, Soft Computing Techniques, Data Structures and Algorithms, Digital Signal Processing, Microcontrollers, Digital and Analog System Design, Power Electronics, Control Systems.",
+      "GPA: 8.08; minor specialization in Computational Intelligence.",
+      "Relevant coursework includes Machine Learning, Data Structures, Digital Signal Processing, and Microcontrollers."
     ],
   },
 ];
