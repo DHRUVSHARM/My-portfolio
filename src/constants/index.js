@@ -226,10 +226,22 @@ const technologies = [
 const experiences = [
   {
     title: "Software Development Intern",
+    company_name: "Figure",
+    icon: destination_star,
+    iconBg: "#383E56",
+    date: "January 2025 - Present",
+    points: [
+      "Enhanced humanoid robot capabilities for real-time decision-making and autonomous operation through the development and testing of software and firmware in C/C++ running on the Humanoid Compute Platform.",
+      "Delivered immersive user experiences by engineering high-quality operator interfaces that integrated sensing, perception, and autonomy modules for both virtual reality (VR) and 2D GUI-based interaction.",
+      "Improved operational efficiency by 30% through implementing Python scripts for data management, test automation, and robot calibration."
+    ],
+  },
+  {
+    title: "Software Development Intern",
     company_name: "Paychex",
     icon: destination_star,
     iconBg: "#383E56",
-    date: "September 2024 - Present",
+    date: "September 2024 - January 2025",
     points: [
       "Developed RESTful web services with Spring Boot and React, enabling integration with third-party insurance platforms and supporting a transition from monolithic to microservices architecture.",
       "Optimized database performance by migrating SQL from Pro*C/C++ to Python with SQLAlchemy ORM and cx_Oracle, enhancing query execution, transaction handling, and scalability.",
